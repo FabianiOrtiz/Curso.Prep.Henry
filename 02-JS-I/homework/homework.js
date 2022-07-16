@@ -1,7 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = Fabian;
+const nuevaString = fabian;
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 11;
@@ -128,7 +128,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 === 0)
+  if (num % 2 === 1)
   return false; 
 }
 
@@ -136,7 +136,7 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  
+  return math.pow(num,2)
 }
 
 function elevarAlCubo(num) {
